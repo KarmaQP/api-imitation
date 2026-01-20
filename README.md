@@ -30,6 +30,7 @@ Backend отсутствует — используется имитация API
 
 ## Структура проекта
 
+```text
 src/
 ├─ main.js
 ├─ App.vue
@@ -65,6 +66,8 @@ npm run serve
 ```
 
 npm run build
+
+```
 
 ```
 
