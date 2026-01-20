@@ -28,20 +28,46 @@ Backend отсутствует — используется имитация API
 
 ---
 
+## 📁 Структура проекта
+
+src/
+├─ main.js
+├─ App.vue
+├─ stores/
+│ └─ authStore.js
+├─ components/
+│ ├─ LoginModal.vue
+│ ├─ RegisterModal.vue
+│ └─ UserInfo.vue
+├─ assets/
+│ └─ Logo.png
+
+---
+
 ## Project setup
 
 ```
+
 npm install
+
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
+
 npm run serve
+
 ```
 
 ### Compiles and minifies for production
 
 ```
+
 npm run build
+
+```
+
+```
+
 ```
