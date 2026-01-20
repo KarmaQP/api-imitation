@@ -42,6 +42,7 @@ src/
 │ └─ UserInfo.vue
 ├─ assets/
 │ └─ Logo.png
+```
 
 ---
 
@@ -66,6 +67,8 @@ npm run serve
 ```
 
 npm run build
+
+```
 
 ```
 
