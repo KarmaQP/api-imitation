@@ -1,24 +1,47 @@
-# api_imitation
+# Vue 3 Test Task — Forms + Modal
+
+Тестовый проект на **Vue 3**, демонстрирующий работу с интерактивными формами в modal (popup) с использованием **Bootstrap**, **Font Awesome** и **Pinia**.  
+Backend отсутствует — используется имитация API-запросов.
+
+---
+
+## 🚀 Стек технологий
+
+- **Vue 3** (Composition API, `<script setup>`)
+- **Pinia** — управление состоянием
+- **Bootstrap 5** — стили и modal
+- **Font Awesome** — иконки
+- **Vite** — сборщик
+
+---
+
+## 📌 Функциональность
+
+- Две интерактивные формы:
+  - **Форма авторизации**
+  - **Форма регистрации**
+- Формы открываются в **popup (Bootstrap Modal)**
+- Работа с полями через `v-model`
+- Имитация API-запроса (`Promise + setTimeout`)
+- Состояние (loading, user) хранится в **Pinia**
+- Отображение JSON-ответа после успешной отправки формы
+
+---
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

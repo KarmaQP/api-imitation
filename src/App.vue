@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container mt-5 text-center">
+    <h1 class="mb-4">Vue 3 API Imitation</h1>
+    <div class="d-flex justify-content-center gap-3">
+      <button
+        class="btn btn-success"
+        data-bs-toggle="modal"
+        data-bs-target="#registerModal"
+      >
+        <i class="fa fa-user-plus me-2"></i>
+        Регистрация
+      </button>
+      <button
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#loginModal"
+      >
+        <i class="fa fa-sign-in-alt me-2"></i>
+        Войти
+      </button>
+    </div>
+    <RegisterModal />
+    <LoginModal />
+    <UserInfo />
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import LoginModal from './components/LoginModal.vue';
+import RegisterModal from './components/RegisterModal.vue';
+import UserInfo from './components/UserInfo.vue';
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
