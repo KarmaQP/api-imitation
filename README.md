@@ -7,7 +7,7 @@ Backend отсутствует — используется имитация API
 
 ## Стек
 
-- **Vue 3** (Composition API, `<script setup>`)
+- **Vue 3**
 - **Pinia** — управление состоянием
 - **Bootstrap 5** — стили и modal
 - **Font Awesome** — иконки
@@ -30,18 +30,18 @@ Backend отсутствует — используется имитация API
 
 ## Структура проекта
 
-```text
+```
 src/
 ├─ main.js
 ├─ App.vue
 ├─ stores/
-│ └─ authStore.js
+│  └─ authStore.js
 ├─ components/
-│ ├─ LoginModal.vue
-│ ├─ RegisterModal.vue
-│ └─ UserInfo.vue
+│  ├─ LoginModal.vue
+│  ├─ RegisterModal.vue
+│  └─ UserInfo.vue
 ├─ assets/
-│ └─ Logo.png
+│  └─ Logo.png
 
 ```
 
